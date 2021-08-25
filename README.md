@@ -1,2 +1,13 @@
-# SistemaHoteleiro
-Projeto desenvolvido em equipe para matéria de Desenvolvimento de Software Visual
+# Sistema Hoteleiro
+Repositório do projeto Sistema Hoteleiro, desenvolvido para a disciplina de Desenvolvimento de Software Visual -  **ministrada por Diogo Deconto**
+
+Todos os elementos abaixo irão descrever os passos para a utilização do projeto Sistema Hoteleiro **(C#)**.
+
+# Autores
+[Andréa Martins dos Santos]()
+
+[Bruno Vinícius]()
+
+[Henrique Andreola Augusto]()
+
+[Liandra Mary de Souza]()
