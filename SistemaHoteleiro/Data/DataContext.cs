@@ -1,4 +1,4 @@
-using API.Models;
+using SistemaHoteleiro.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace SistemaHoteleiro.Data
