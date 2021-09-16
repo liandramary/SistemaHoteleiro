@@ -6,7 +6,7 @@ Todos os elementos abaixo irão descrever os passos para a utilização do proje
 # Autores
 [Andréa Martins dos Santos]()
 
-[Bruno Vinícius]()
+[Bruno Vinícius Calabrese de Luca]()
 
 [Henrique Andreola Augusto]()
 

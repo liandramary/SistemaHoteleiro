@@ -29,8 +29,12 @@ namespace SistemaHoteleiro
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+<<<<<<< Updated upstream
             //Configurar todas as injeções de dependência da sua aplicação
             services.AddDbContext<DataContext>
+=======
+          services.AddDbContext<DataContext>
+>>>>>>> Stashed changes
             (
                 options => options.UseInMemoryDatabase("database")
             );
@@ -38,7 +42,7 @@ namespace SistemaHoteleiro
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SistemaHoteleiro", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
         }
 
