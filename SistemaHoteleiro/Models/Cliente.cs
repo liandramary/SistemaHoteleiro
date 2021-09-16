@@ -7,7 +7,7 @@ namespace SistemaHoteleiro.Models
         public Cliente() => CriadoEm = DateTime.Now;
 
         public int IdCliente { get; set; }
-        public string Cpf { get; set; }
+        public float Cpf { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
         public DateTime CriadoEm { get; set; }
