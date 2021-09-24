@@ -1,0 +1,30 @@
+### Cadastrar produto
+POST https://localhost:5001/hotel/produto/create
+Content-Type: application/json
+
+{
+    "Nome" : "Sabonete",
+    "Preco" : 12.0,
+    "Quantidade" : 2
+}
+
+### Listar produtos
+GET https://localhost:5001/hotel/produto/list
+
+### Deletar produto pelo nome
+DELETE https://localhost:5001/hotel/produto/delete/Sabonete
+
+### Buscar produto pelo id
+GET https://localhost:5001/hotel/produto/getbyid/2
+
+### Alterar os dados do produto
+PUT https://localhost:5001/hotel/produto/update
+Content-Type: application/json
+
+{
+    "Id" : 2,
+    "Nome" : "Shampoo",
+    "Preco" : 16.0,
+    "Quantidade" : 2
+}
+

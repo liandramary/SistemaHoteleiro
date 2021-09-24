@@ -13,5 +13,6 @@ namespace SistemaHoteleiro.Data
         public DbSet<Reserva> Reservas { get; set; }
         public DbSet<Quarto> Quartos { get; set; }
         public DbSet<Consumo> Consumos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
     }
 }
