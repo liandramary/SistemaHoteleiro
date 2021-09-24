@@ -1,0 +1,31 @@
+### Cadastrar quarto
+POST https://localhost:5001/hotel/quarto/create
+Content-Type: application/json
+
+{
+    "AndarQuarto" : "Segundo",
+    "TipoQuarto" : "Suite",
+    "ValorDiaria" : 70.5,
+    "Disponivel" : true
+}
+
+### Listar quartos
+GET https://localhost:5001/hotel/quarto/list
+
+### Buscar quarto pelo id
+GET https://localhost:5001/hotel/quarto/getbyid/1
+
+### Deletar quarto pelo id
+DELETE https://localhost:5001/hotel/quarto/delete/2
+
+### Alterar o quarto inteiro
+PUT https://localhost:5001/hotel/quarto/update
+Content-Type: application/json
+
+{
+    "Id" : 1,
+    "AndarQuarto" : "Segundo",
+    "TipoQuarto" : "Suite",
+    "ValorDiaria" : 70.5,
+    "Disponivel" : false
+}

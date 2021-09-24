@@ -6,14 +6,12 @@ namespace SistemaHoteleiro.Models
     {
         public Reserva() => CriadoEm = DateTime.Now;
 
-        public int CodReserva { get; set; }
-        public int IdCliente { get; set; } //FK
-        public int CodQuarto { get; set; } //FK
+        public int Id { get; set; }
+        public Cliente Cliente { get; set; }
+        public Quarto Quarto { get; set; }
         public DateTime DataCheckin { get; set; }
         public DateTime DataCheckout { get; set; }
+        public double ValorTotal { get; set; }
         public DateTime CriadoEm { get; set; }
-
-        public virtual Cliente Cliente { get; set; }
-        public virtual Quarto Quarto { get; set; }
     }
 }

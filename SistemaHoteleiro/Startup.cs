@@ -29,12 +29,8 @@ namespace SistemaHoteleiro
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-<<<<<<< Updated upstream
             //Configurar todas as injeções de dependência da sua aplicação
             services.AddDbContext<DataContext>
-=======
-          services.AddDbContext<DataContext>
->>>>>>> Stashed changes
             (
                 options => options.UseInMemoryDatabase("database")
             );

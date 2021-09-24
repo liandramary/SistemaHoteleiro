@@ -7,21 +7,16 @@ namespace SistemaHoteleiro.Models
     {
         public Consumo() => CriadoEm = DateTime.Now;
 
-        public int CodReserva { get; set; }
-
+        public int Id { get; set; }
+        public Reserva Reserva { get; set; }
         public int codConsumo { get; set; }
-
-        public string Produto { get; set; }
-
-        public int Quantidade { get; set; }
-
+        public Produto Produto { get; set; }
+        //public int Quantidade { get; set; }
         public DateTime CriadoEm { get; set; }
-
-        public float ValorDiaria { get; set; }
+        public float ValorTotal { get; set; }
 
         public override string ToString() =>
-         $" CodReserva: {CodReserva} | Produto: {Produto} | Preço: {ValorDiaria:C2} | Data do Consumo: {CriadoEm}";
-
+         $" CodReserva: {Reserva} | Produto: {Produto} | Preço: {ValorTotal:C2} | Data do Consumo: {CriadoEm}";
 
     }
 
