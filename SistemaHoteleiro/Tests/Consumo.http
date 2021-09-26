@@ -1,0 +1,13 @@
+### Cadastrar os Consumos
+GET https://localhost:5001/hotel/consumo/create
+Content-Type: application/json
+
+{
+    "Reserva" : 321,
+    "CodConsumo" : 123,
+    "Produto" : "suco",
+    "ValorTotal" : "32"
+}
+
+### Listar consumos
+GET https://localhost:5001/hotel/consumo/list
