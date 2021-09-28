@@ -28,12 +28,14 @@ namespace SistemaHoteleiro.Controllers
             return Created("", reserva);
     }
 
+
+
     //Get: /Hotel/reserva/delete
-    [Route("delete/{Cliente}")]
+    [Route("delete/{id}")]
     [HttpDelete]
-    public IActionResult Delete(string Cliente)
+    public IActionResult Delete(int id)
     {
-        Cliente reserva = _context.Reservas.FirstOrDefault(reserva => reserva.Cliente == Cliente);
+        Reserva reserva = _context.Reservas.FirstOrDefault(reserva => reserva.Id == id);
         if (reserva == null)
         {
             return NotFound("O cliente não fez nenhuma reserva em nosso sistema. Verifique se preencheu os campos corretamente");
