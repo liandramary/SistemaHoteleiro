@@ -14,5 +14,6 @@ namespace SistemaHoteleiro.Models
         public DateTime DataCheckout { get; set; }
         public double ValorTotal { get; set; }
         public DateTime CriadoEm { get; set; }
+        public NotaFiscal NotaFiscal { get; set; }
     }
 }
