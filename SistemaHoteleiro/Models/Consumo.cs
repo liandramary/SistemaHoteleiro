@@ -11,7 +11,6 @@ namespace SistemaHoteleiro.Models
         public Reserva Reserva { get; set; }
         public int codConsumo { get; set; }
         public Produto Produto { get; set; }
-        //public int Quantidade { get; set; }
         public DateTime CriadoEm { get; set; }
         public float ValorTotal { get; set; }
 
