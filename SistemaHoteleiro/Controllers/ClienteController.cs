@@ -33,7 +33,7 @@ namespace SistemaHoteleiro.Controllers
     [HttpDelete]
     public IActionResult Delete(string name)
     {
-        Cliente cliente = _context.Clientes.FirstOrDefault(cliente => cliente.Nome == name);
+        Cliente cliente = _context.Cliente  .FirstOrDefault (cliente => cliente.Cpf == Cpf);
         if (cliente == null)
         {
             return NotFound("O cliente não existe em nosso banco de dados. Verifique se preencheu os campos corretamente");
@@ -41,15 +41,15 @@ namespace SistemaHoteleiro.Controllers
         }
         _context.Clientes.Remove(cliente);
         _context.SaveChanges();
-        return Ok(_context.Clientes.ToList());
+        return Ok(cliente);
     }
 
-    //Put: /Hotel/cliente/update
-    [Route("update")]
+    //Put: /Hotel/cliente/alterar
+    [Route("alterar")]
     [HttpPut]
     public IActionResult Update([FromBody] Cliente cliente)
     {
-        _context.Clientes.Update(cliente);
+        _context.Cliente.Update(cliente);
         _context.SaveChanges();
         return Ok(cliente);
     }
