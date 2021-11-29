@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TUjVFp3jBv+PKJYaM7gVrZtudOrs/onC2zW6ZnWunYnHBNO69faRGUNo6JQQt9CIwtFyeCHthWQ/v3WLVNBj2A==",
+  "dgSpecHash": "c9Z+b6bsr2iEeoJN/y2T3q1cCkpHtbN4qfu/HGspf/WBQz+Y9q3FlyEc0SEaHW5kKIpxAOTtmdxjsAZkyKwhng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jorel\\Desktop\\Avaliacaobimestralhotel\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Jorel\\Downloads\\Projeto_back\\Nova pasta\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jorel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jorel\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

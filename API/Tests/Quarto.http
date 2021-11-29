@@ -1,5 +1,5 @@
-### Cadastrar um novo produto
-POST https://localhost:5001/api/produto/create
+### Cadastrar um novo quarto
+POST https://localhost:5001/api/quarto/create
 Content-Type: application/json
 
 {
@@ -10,16 +10,16 @@ Content-Type: application/json
     "CategoriaId" : 1
 }
 
-### Listar todos os produtos
+### Listar todos os quartos
 GET https://localhost:5001/api/quarto/list
 
-### Buscar um produto pelo id
+### Buscar um quarto pelo id
 GET https://localhost:5001/api/quarto/getbyid/1
 
-### Deletar um produto pelo nome
+### Deletar um quarto pelo nome
 DELETE https://localhost:5001/api/quarto/delete/Quarto_1
 
-### Alterar um produto
+### Alterar um quarto
 PUT https://localhost:5001/api/quarto/update
 Content-Type: application/json
 
